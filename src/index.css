@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+}
+header {
+  background: #444;
+  padding: 7px;
+  border-radius: 3px 3px 0 0;
+}
+.main_div {
+  text-align: center;
+  display: block;
+  width: 100%;
+  position: absolute;
+}
+.center_div {
+  background: #138796;
+  border-radius: 3px;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  top: 100px;
+  position: relative;
+}
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  font-weight: lighter;
+}
+.center_div {
+  background: #138796;
+  border-radius: 3px;
+}
+.main_div input {
+  box-sizing: border-box;
+  width: 75%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+}
+.main_div button {
+  width: 25%;
+  background: #eee;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+  border: none;
+  border-left: 1px solid #999;
+}
+.main_div button:hover {
+  background: #ddd;
+}
+
+.todo-list {
+  padding-top: 10px;
+  width: 100%;
+}
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+  padding: 3px 10px;
+  font-size: 18px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+.todo-text {
+  cursor: pointer;
+}
+.todo .button {
+  color: #f37070;
+  background: transparent;
+  cursor: pointer;
+}
+ol {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+li.list-group-item {
+  list-style: none;
+}
